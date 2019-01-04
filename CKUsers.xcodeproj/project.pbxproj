@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90E86EC821DE7B9100F3429B /* EntriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E86EC721DE7B9100F3429B /* EntriesTableViewController.swift */; };
+		90E86ECA21DE7E0300F3429B /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E86EC921DE7E0300F3429B /* Entry.swift */; };
+		90E86ECC21DE87EE00F3429B /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E86ECB21DE87EE00F3429B /* EntryController.swift */; };
 		90EAB44221DD2D8E00A03D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EAB44121DD2D8E00A03D40 /* AppDelegate.swift */; };
-		90EAB44421DD2D8E00A03D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EAB44321DD2D8E00A03D40 /* ViewController.swift */; };
 		90EAB44721DD2D8E00A03D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EAB44521DD2D8E00A03D40 /* Main.storyboard */; };
 		90EAB44921DD2D9000A03D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EAB44821DD2D9000A03D40 /* Assets.xcassets */; };
 		90EAB44C21DD2D9000A03D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EAB44A21DD2D9000A03D40 /* LaunchScreen.storyboard */; };
+		90EAB45621DD2DA000A03D40 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EAB45521DD2DA000A03D40 /* CloudKit.framework */; };
+		90EAB45921DD304800A03D40 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EAB45821DD304800A03D40 /* SignUpViewController.swift */; };
+		90EAB45F21DD315A00A03D40 /* PetOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EAB45E21DD315A00A03D40 /* PetOwner.swift */; };
+		90EAB46121DD3BB400A03D40 /* PetOwnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EAB46021DD3BB400A03D40 /* PetOwnerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90E86EC721DE7B9100F3429B /* EntriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesTableViewController.swift; sourceTree = "<group>"; };
+		90E86EC921DE7E0300F3429B /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		90E86ECB21DE87EE00F3429B /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 		90EAB43E21DD2D8E00A03D40 /* CKUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EAB44121DD2D8E00A03D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90EAB44321DD2D8E00A03D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90EAB44621DD2D8E00A03D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90EAB44821DD2D9000A03D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90EAB44B21DD2D9000A03D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90EAB44D21DD2D9000A03D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EAB45321DD2D9E00A03D40 /* CKUsers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CKUsers.entitlements; sourceTree = "<group>"; };
+		90EAB45521DD2DA000A03D40 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		90EAB45821DD304800A03D40 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		90EAB45E21DD315A00A03D40 /* PetOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwner.swift; sourceTree = "<group>"; };
+		90EAB46021DD3BB400A03D40 /* PetOwnerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwnerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EAB45621DD2DA000A03D40 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,7 @@
 			children = (
 				90EAB44021DD2D8E00A03D40 /* CKUsers */,
 				90EAB43F21DD2D8E00A03D40 /* Products */,
+				90EAB45421DD2DA000A03D40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,60 @@
 		90EAB44021DD2D8E00A03D40 /* CKUsers */ = {
 			isa = PBXGroup;
 			children = (
+				90EAB45D21DD314A00A03D40 /* Model */,
+				90EAB45321DD2D9E00A03D40 /* CKUsers.entitlements */,
+				90EAB45C21DD314000A03D40 /* ViewControlles */,
+				90EAB45721DD2DB100A03D40 /* Resources */,
+				90EAB46221DD3BB900A03D40 /* ModelController */,
+			);
+			path = CKUsers;
+			sourceTree = "<group>";
+		};
+		90EAB45421DD2DA000A03D40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90EAB45521DD2DA000A03D40 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90EAB45721DD2DB100A03D40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				90EAB44121DD2D8E00A03D40 /* AppDelegate.swift */,
-				90EAB44321DD2D8E00A03D40 /* ViewController.swift */,
 				90EAB44521DD2D8E00A03D40 /* Main.storyboard */,
 				90EAB44821DD2D9000A03D40 /* Assets.xcassets */,
 				90EAB44A21DD2D9000A03D40 /* LaunchScreen.storyboard */,
 				90EAB44D21DD2D9000A03D40 /* Info.plist */,
 			);
-			path = CKUsers;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90EAB45C21DD314000A03D40 /* ViewControlles */ = {
+			isa = PBXGroup;
+			children = (
+				90EAB45821DD304800A03D40 /* SignUpViewController.swift */,
+				90E86EC721DE7B9100F3429B /* EntriesTableViewController.swift */,
+			);
+			path = ViewControlles;
+			sourceTree = "<group>";
+		};
+		90EAB45D21DD314A00A03D40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90EAB45E21DD315A00A03D40 /* PetOwner.swift */,
+				90E86EC921DE7E0300F3429B /* Entry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90EAB46221DD3BB900A03D40 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				90EAB46021DD3BB400A03D40 /* PetOwnerController.swift */,
+				90E86ECB21DE87EE00F3429B /* EntryController.swift */,
+			);
+			path = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +157,14 @@
 				TargetAttributes = {
 					90EAB43D21DD2D8E00A03D40 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,8 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90EAB44421DD2D8E00A03D40 /* ViewController.swift in Sources */,
+				90E86ECA21DE7E0300F3429B /* Entry.swift in Sources */,
+				90EAB46121DD3BB400A03D40 /* PetOwnerController.swift in Sources */,
+				90E86ECC21DE87EE00F3429B /* EntryController.swift in Sources */,
+				90EAB45F21DD315A00A03D40 /* PetOwner.swift in Sources */,
+				90EAB45921DD304800A03D40 /* SignUpViewController.swift in Sources */,
 				90EAB44221DD2D8E00A03D40 /* AppDelegate.swift in Sources */,
+				90E86EC821DE7B9100F3429B /* EntriesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +356,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CKUsers/CKUsers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57FTCZV5HS;
-				INFOPLIST_FILE = CKUsers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CKUsers/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,9 +375,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CKUsers/CKUsers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57FTCZV5HS;
-				INFOPLIST_FILE = CKUsers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CKUsers/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

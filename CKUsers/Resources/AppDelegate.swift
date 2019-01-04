@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        PetOwnerController.shared.createPetOwner(with: "Greg", password: "123456", petname: "halen") { (success) in
+//            if success {
+//                print("star")
+//            }
+//            else {
+//                print("no success")
+//            }
+//        }
+//        PetOwnerController.shared.fetchCurrentPetOwner { (success) in
+//            if success {
+//                print("fetch success")
+//            }
+//        }
         return true
     }
 
